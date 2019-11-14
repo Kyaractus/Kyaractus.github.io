@@ -26,13 +26,17 @@
 	padding: 0;
 	width: 200px;
 	background-color: #f1f1f1;
+	text-align: right;
+	psition: Absolute;
 }
 /* In Navbar, active page has green background */
 .active {
-	background-color: #03C70E !important;
+	background-color: #EC3838 !important;
 	color: white !important;
 }
-.Navigation {
-	align-content: Right;
+#main-title {
+	font-family: gilbert-color,sans-serif;
+	color: #EC3838;
+	text-align: center;
 	
 }
