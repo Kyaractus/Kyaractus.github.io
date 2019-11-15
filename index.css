@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+html {
+	background-color: #F1F1F1
+}
 .Navigation li {
 	list-style-type: none;
 	text-align: center;
@@ -14,8 +17,9 @@
 	font-size: 20pt;
 	display: block;
 	width: 200px;
-	padding: 8px;
-	background-color: lightgrey;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #CCCCCC;
 }
 .Navigation a:hover {
 	background-color: #555;
@@ -25,7 +29,7 @@
 	margin: 0;
 	padding: 0;
 	width: 200px;
-	background-color: #f1f1f1;
+	background-color: #CCCCCC;
 	text-align: right;
 }
 /* In Navbar, active page has green background */
@@ -33,23 +37,32 @@
 	background-color: #EC3838 !important;
 	color: white !important;
 }
+.heading-and-intro {
+	width: auto;
+	height: 400px;
+	text-align: center;
+}
 #main-title {
 	font-family: gilbert-color,sans-serif;
 	color: #EC3838;
 	text-align: center;
-	font-size: 30pt;	
-	
+	font-size: 30pt;
+	position: relative;	
+	padding-bottom: 0;
 }
 #logo {
 	width: 100%;
 	height: auto;
 }
 .logo-and-navbar {
-	display:block;
-	width: 184px;
+	display: block;
+	width: 200px;
 	height: 100%;
 	position: absolute;
 	background-color: #CCCCCC;
 	margin: 0px;
 	padding: 0px;
+}
+#location {
+	padding-top: 0;
 }
