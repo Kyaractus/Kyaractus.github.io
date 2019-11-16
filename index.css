@@ -49,6 +49,7 @@ html {
 	font-size: 30pt;
 	position: relative;	
 	padding-bottom: 0;
+	padding-top: 8px;
 }
 #logo {
 	width: 100%;
