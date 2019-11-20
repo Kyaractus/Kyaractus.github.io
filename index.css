@@ -71,6 +71,7 @@ html {
 	font-style: normal;
 }
 .Gallery {
-	display: block;
+	float: left;
+	align-content: center;
 	width: auto;
 }
