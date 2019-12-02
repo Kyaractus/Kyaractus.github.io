@@ -2,8 +2,7 @@
 /* CSS Document */
 .Navigation li {
 	list-style-type: none;
-	text-align: center;
-	float: left;
+	float: right;
 }
 .Navigation a {
 	text-decoration-line: none;
@@ -12,10 +11,12 @@
 	font-weight: 700;
 	font-style: normal;
 	font-size: 20pt;
-	display: block;
-	width: 200px;
+
+	width: 150px;
 	padding-top: 8px;
 	padding-bottom: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: #CCCCCC;
 }
 .Navigation a:hover {
@@ -25,9 +26,14 @@
 .Navigation ul {
 	margin: 0;
 	padding: 0;
-	width: 200px;
+	width: auto;
 	background-color: #CCCCCC;
-	text-align: right;
+
+}
+.Navigation {
+	display:inline-block;
+	float:right;
+	margin-top:1%;
 }
 /* In Navbar, active page has green background */
 .active {
@@ -37,13 +43,10 @@
 #logo {
 	width: 100%;
 	height: auto;
+	display:inline-block;
 }
-.logo-and-navbar {
-	display: block;
-	width: 200px;
-	height: 200%;
-	position: absolute;
-	background-color: #CCCCCC;
-	margin: 0px;
-	padding: 0px;
+#imgdiv {
+	display:inline-block;
+	width:10%;
+	height: auto;
 }

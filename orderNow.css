@@ -12,9 +12,6 @@
 .orderingScreen {
 	border-style: solid #000000 3px;
 	float: right;
-	display: block;
-	width: 1500px;
-	height: 900px;
 	margin: 15px;
 	padding: 5px
 }
