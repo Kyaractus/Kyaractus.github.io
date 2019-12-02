@@ -7,35 +7,22 @@
 	text-align: center;
 }
 #main-title {
-	font-family: gilbert-color,sans-serif;
-	color: #EC3838;
-	text-align: center;
-	font-size: 30pt;
 	position: relative;	
 	padding-bottom: 0;
 	padding-top: 16px;
 }
-#logo {
-	width: 100%;
-	height: auto;
-}
-.logo-and-navbar {
-	display: block;
-	width: 200px;
-	height: 200%;
-	position: absolute;
-	background-color: #CCCCCC;
-	margin: 0px;
-	padding: 0px;
-}
+
 #location {
 	padding-top: 0;
 	font-family: roboto, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
-#galleryTitle {
+h1 {
 	text-align: center;
+	font-family: gilbert-color,sans-serif;
+	color: #EC3838;
+	font-size: 30pt;
 }
 #new-milkshakes {
 	padding: 5px;
@@ -44,10 +31,10 @@
  	margin: 5px;
 	width:500px;
 	border: 1px solid #000000;
-  	float: right;
 	font-family: roboto, sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	display: inline-block;
 	
 }
 .galleryText {
