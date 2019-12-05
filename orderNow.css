@@ -19,6 +19,7 @@ p {
 	border: solid #000 1px;
 	width: 25%;
 	padding-bottom: 5px;
+	display: inline-block;
 }
 
 .itemImage {
@@ -27,4 +28,7 @@ p {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+.item:hover {
+	border: Solid #000 3px !important;
 }

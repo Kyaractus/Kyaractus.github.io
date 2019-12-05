@@ -46,3 +46,6 @@ h1 {
 .galleryImage:hover {
 	border: 2px solid #000000 !important;
 }
+.gallerycontent {
+	align-content: flex-start;
+}
