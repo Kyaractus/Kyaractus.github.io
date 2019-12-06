@@ -1,11 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-
-.heading-and-intro {
-	width: auto;
-	height: 400px;
-	text-align: center;
-}
 #main-title {
 	position: relative;	
 	padding-bottom: 0;
@@ -27,15 +21,20 @@ h1 {
 #new-milkshakes {
 	padding: 5px;
 }
+.galleryTitle{
+	padding: 25px;
+}
 .galleryImage {
  	margin: 5px;
-	width:500px;
+	width:50%;
 	border: 1px solid #000000;
 	font-family: roboto, sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	display: inline-block;
-	
+	display:block;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
 }
 .galleryText {
 	padding: 15px;
@@ -48,4 +47,8 @@ h1 {
 }
 .gallerycontent {
 	align-content: flex-start;
+}
+.galleryImageActual {
+	width:100%;
+	height: auto;
 }

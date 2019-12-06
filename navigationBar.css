@@ -28,7 +28,6 @@
 	padding: 0;
 	width: auto;
 	background-color: #CCCCCC;
-
 }
 .Navigation {
 	display:inline-block;
@@ -40,13 +39,19 @@
 	background-color: #EC3838 !important;
 	color: white !important;
 }
+.heading-and-intro {
+	display: inline-block;
+	padding: 30px;
+}
 #logo {
 	width: 100%;
 	height: auto;
-	display:inline-block;
 }
 #imgdiv {
 	display:inline-block;
 	width:10%;
 	height: auto;
+}
+.logo-and-navbar {
+	background-color: #CCCCCC;
 }
