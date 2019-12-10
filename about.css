@@ -1,3 +1,38 @@
 @charset "utf-8";
 /* CSS Document */
-
+h1 {
+	text-align: center;
+	font-family: gilbert-color,sans-serif;
+	color: #EC3838;
+	font-size: 30pt;
+}
+.bodyText {
+	padding: 15px 40px;
+}
+.text {
+	width: 25%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display:inline-block;
+	padding-top: 30px;
+	text-align:center;
+	padding-left:auto;
+	padding-right:auto;
+}
+p {
+	font-size: 18pt;
+	font-weight: bold;
+}
+.old {
+	display:inline-block;
+	float:left;
+	width:30%;
+	height:auto;
+}
+.new {
+	display:inline-block;
+	float:right;
+	width:30%;
+	height:auto;
+}
