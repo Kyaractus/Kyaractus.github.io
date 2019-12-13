@@ -6,3 +6,8 @@ h1 {
 	color: #EC3838;
 	font-size: 30pt;
 }
+p {
+	margin-right: 150px;
+	font-weight: bold;
+	font-size: 20pt;
+}
